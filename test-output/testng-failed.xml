@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test automtion suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.assignment.testlistners.ExtentReportListner"/>
+  </listeners>
+  <test thread-count="5" name="RegisterPageTest(failed)">
+    <classes>
+      <class name="com.qa.assignment.test.RegisterPageTest">
+        <methods>
+          <include name="userRegistrationTest"/>
+          <include name="setUp"/>
+          <include name="initial"/>
+        </methods>
+      </class> <!-- com.qa.assignment.test.RegisterPageTest -->
+    </classes>
+  </test> <!-- RegisterPageTest(failed) -->
+</suite> <!-- Failed suite [Test automtion suite] -->

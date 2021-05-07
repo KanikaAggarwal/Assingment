@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-07T07:54:58Z" name="Test automtion suite" finished-at="2021-05-07T07:55:48Z" duration-ms="50219">
+    <groups>
+    </groups>
+    <test started-at="2021-05-07T07:54:58Z" name="RegisterPageTest" finished-at="2021-05-07T07:55:10Z" duration-ms="12000">
+      <class name="com.qa.assignment.test.RegisterPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.assignment.test.RegisterPageTest@602e0143]" started-at="2021-05-07T07:54:58Z" name="setUp" finished-at="2021-05-07T07:55:05Z" duration-ms="6520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initial()[pri:0, instance:com.qa.assignment.test.RegisterPageTest@602e0143]" started-at="2021-05-07T07:55:05Z" name="initial" finished-at="2021-05-07T07:55:06Z" depends-on-methods="com.qa.assignment.base.BaseTest.setUp" duration-ms="1474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initial -->
+        <test-method signature="userRegistrationTest()[pri:0, instance:com.qa.assignment.test.RegisterPageTest@602e0143]" started-at="2021-05-07T07:55:06Z" name="userRegistrationTest" finished-at="2021-05-07T07:55:10Z" duration-ms="3926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+      </class> <!-- com.qa.assignment.test.RegisterPageTest -->
+    </test> <!-- RegisterPageTest -->
+    <test started-at="2021-05-07T07:55:10Z" name="LoginPageTest" finished-at="2021-05-07T07:55:24Z" duration-ms="13977">
+      <class name="com.qa.assignment.test.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.assignment.test.LoginPageTest@6f63b475]" started-at="2021-05-07T07:55:10Z" name="setUp" finished-at="2021-05-07T07:55:20Z" duration-ms="9813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signinTest()[pri:1, instance:com.qa.assignment.test.LoginPageTest@6f63b475]" started-at="2021-05-07T07:55:20Z" name="signinTest" finished-at="2021-05-07T07:55:22Z" duration-ms="1906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signinTest -->
+        <test-method signature="getLoginPageTitleTest()[pri:2, instance:com.qa.assignment.test.LoginPageTest@6f63b475]" started-at="2021-05-07T07:55:22Z" name="getLoginPageTitleTest" finished-at="2021-05-07T07:55:22Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginPageTitleTest -->
+        <test-method signature="verifyForgotPwdLinkTest()[pri:3, instance:com.qa.assignment.test.LoginPageTest@6f63b475]" started-at="2021-05-07T07:55:22Z" name="verifyForgotPwdLinkTest" finished-at="2021-05-07T07:55:22Z" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPwdLinkTest -->
+        <test-method signature="loginTest()[pri:4, instance:com.qa.assignment.test.LoginPageTest@6f63b475]" started-at="2021-05-07T07:55:22Z" name="loginTest" finished-at="2021-05-07T07:55:24Z" duration-ms="2207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.qa.assignment.test.LoginPageTest -->
+    </test> <!-- LoginPageTest -->
+    <test started-at="2021-05-07T07:55:24Z" name="ShoppingCartTest" finished-at="2021-05-07T07:55:48Z" duration-ms="23934">
+      <class name="com.qa.assignment.test.ShoppingCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.assignment.test.ShoppingCartTest@6dab9b6d]" started-at="2021-05-07T07:55:24Z" name="setUp" finished-at="2021-05-07T07:55:30Z" duration-ms="5429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="doLoginSetup()[pri:0, instance:com.qa.assignment.test.ShoppingCartTest@6dab9b6d]" started-at="2021-05-07T07:55:30Z" name="doLoginSetup" finished-at="2021-05-07T07:55:33Z" duration-ms="3612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginSetup -->
+        <test-method signature="accountPageTitleTest()[pri:1, instance:com.qa.assignment.test.ShoppingCartTest@6dab9b6d]" started-at="2021-05-07T07:55:33Z" name="accountPageTitleTest" finished-at="2021-05-07T07:55:33Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountPageTitleTest -->
+        <test-method signature="accountUrlTest()[pri:2, instance:com.qa.assignment.test.ShoppingCartTest@6dab9b6d]" started-at="2021-05-07T07:55:33Z" name="accountUrlTest" finished-at="2021-05-07T07:55:33Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountUrlTest -->
+        <test-method signature="accountHeadertextVerify()[pri:3, instance:com.qa.assignment.test.ShoppingCartTest@6dab9b6d]" started-at="2021-05-07T07:55:33Z" name="accountHeadertextVerify" finished-at="2021-05-07T07:55:33Z" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountHeadertextVerify -->
+        <test-method signature="shoppingTest()[pri:4, instance:com.qa.assignment.test.ShoppingCartTest@6dab9b6d]" started-at="2021-05-07T07:55:33Z" name="shoppingTest" finished-at="2021-05-07T07:55:40Z" duration-ms="6830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingTest -->
+        <test-method signature="cartSummaryvisibleVerify()[pri:7, instance:com.qa.assignment.test.ShoppingCartTest@6dab9b6d]" started-at="2021-05-07T07:55:40Z" name="cartSummaryvisibleVerify" finished-at="2021-05-07T07:55:40Z" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartSummaryvisibleVerify -->
+        <test-method signature="paymentProcessTest()[pri:8, instance:com.qa.assignment.test.ShoppingCartTest@6dab9b6d]" started-at="2021-05-07T07:55:40Z" name="paymentProcessTest" finished-at="2021-05-07T07:55:48Z" duration-ms="7928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentProcessTest -->
+        <test-method signature="myOrderCompleteTest()[pri:9, instance:com.qa.assignment.test.ShoppingCartTest@6dab9b6d]" started-at="2021-05-07T07:55:48Z" name="myOrderCompleteTest" finished-at="2021-05-07T07:55:48Z" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myOrderCompleteTest -->
+      </class> <!-- com.qa.assignment.test.ShoppingCartTest -->
+    </test> <!-- ShoppingCartTest -->
+  </suite> <!-- Test automtion suite -->
+</testng-results>
